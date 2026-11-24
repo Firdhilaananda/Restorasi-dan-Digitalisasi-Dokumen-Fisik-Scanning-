@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import utlis
 
+webCamFeed = True
 pathImage = "tester1.jpg"
 cap = cv2.VideoCapture(1) # Pastikan indeks kamera HP/webcam sudah sesuai
 cap.set(10, 160)
